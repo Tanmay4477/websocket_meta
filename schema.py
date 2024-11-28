@@ -19,8 +19,6 @@ class MovementPayloadSchema(BaseModel):
     y: int 
     userId: int
 
-#  to check as may be userId(not user_id) can create a problem
-
 class MovementRejectPayloadSchema(BaseModel):
     x: int
     y: int
